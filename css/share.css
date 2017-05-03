@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+}
+.head{
+	width: 1040px;
+	height: 120px;
+	margin: 0 auto;
+}
+.logo>a{
+	width: 185px;
+	height: 80px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	background: url(../img/ABUIABAEGAAggteArgUoxrDsmwcwuQE4UA.png) no-repeat;
+}
+.number>a{
+	width: 855px;
+	height: 46px;
+	display: block;
+	float: right;
+	background: url(../img/ABUIABAEGAAgpamTuAUo4tj89AQwtAE4Lg.png) no-repeat right;
+}
+.nav{
+	width: 580px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;	
+}
+.nav>ul{
+	float: right;
+}
+.nav>ul>li{
+	width: 95px;
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 0 10px 0;
+	float: left;	
+}
+.nav>ul>li>a{
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	border-right: 1px solid #1d1c1c;
+	color: #666666;	
+	font-weight: bold;
+}
+.nav>ul>li>a:hover{
+	color: #000;
+}
+
+.nav_li{
+	position: relative;
+}
+.nav_li_sm{
+	width: 95px;
+	height: 170px;
+	background: #2d2d2d;
+	display: none;
+	position: absolute;
+	top: 43px;
+	left: 0;
+	z-index: 4;
+}
+.nav_li_sm>ul>li{
+	width: 95px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.nav_li_sm>ul>li>a{
+	border: none;
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+}
+.nav_li:hover .nav_li_sm{
+	display: block;
+}
+.nav_li_sm>ul>li:hover{
+	background: #ff0000;
+}
+
+
+
+
+
+
+
+#banner_box{
+	width: 100%;
+	height: 500px;
+	background: #dbdbdb;
+	position: relative;
+}
+.banner{
+	width: 1920px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -960px;	
+}
+
+
+
+#footer{
+	width: 100%;
+	height: 200px;
+	background: #2d3237;
+}
+.foot{
+	width: 1040px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;	
+}
+.ewm{
+	width: 125px;
+	height: 150px;
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+.ewm img{
+	width: 125px;
+	height: 125px;	
+}
+.ewm>p{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+.foot>p{
+	width: 800px;
+	text-align: center;
+	color: #999999;
+	font-size: 12px;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -400px;
+}
+
+
+
+
+
+
+
+
+
+
